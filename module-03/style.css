@@ -38,17 +38,21 @@ nav {
     padding-top: 73px;
     padding-bottom: 108px;
     display: block;
+    
 }
 
 .menu-title {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    font-size: 0px;
+    
 }
 
 nav a {
     text-decoration: none;
     color: #626262;
+    display: block;
 }
 
 nav a:hover {
@@ -68,7 +72,9 @@ nav li:last-child {
 
 .life-style-sections {
     margin: 0px;
+    margin-bottom: 55px;
     padding: 0px;
+    font-size: 0px;
 }
 
 .life-style-sections li:nth-child(2n) {
@@ -90,6 +96,7 @@ img {
 }
 
 .type-words {
+    margin: 0px;
     margin-bottom: 29px;
     font-size: 14px;
 }
@@ -101,18 +108,20 @@ img {
 }
 
 .words {
+    margin: 0px;
     font-size: 14px;
 }
 
 .life-style-sections li:nth-last-child(-n + 2) {
-    margin-bottom: 55px;
+    margin-bottom: 0px;
 }
 
 .button-load {
-    margin-left: 360px;
     padding: 20px 36px;
     border: 2px solid;
     font-size: 20px;
     color: #626262;
     border-color:#626262;
+    display: block;
+    margin: 0 auto;
 }
