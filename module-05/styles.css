@@ -127,7 +127,7 @@ img {
 
 .content_button_prev {
     background: url('img/4.png') no-repeat center;
-    display: inline-block;
+    
     width: 95px;
     height: 107px;
     background-color: rgb(26, 188, 156, 0.65)
@@ -135,7 +135,7 @@ img {
 
 .content_button_next {
     background: url('img/3.png') no-repeat center;
-    display: inline-block;
+    
     width: 95px;
     height: 107px;
     background-color: rgb(26, 188, 156, 0.65);
