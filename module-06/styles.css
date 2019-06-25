@@ -57,11 +57,23 @@ img {
 }
 
 .menu_items_link {
+    display: block;
     padding: 0 28px 0 28px;
     text-decoration: none;
     color: #95e1d3;
     display: block;
 
+}
+.menu_items_link::after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 30px;
+    height: 4px;
+    background-color: none;
+    text-align: center;
+    margin-top: 11px;
+    transition: all 200ms linear;
 }
 
 
@@ -265,7 +277,7 @@ img {
 }
 
 .catalog {
-    margin: 10px;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -297,6 +309,7 @@ img {
     margin: 0 0 15px 0;
     padding: 0;
 }
+
 
 .name-text {
     margin: 0;
@@ -394,6 +407,9 @@ img {
     display: block;
     transition: all .200ms linear;
 }
+.team_list_hover_link {
+    display: block;
+}
 
 .team_list_hover_link:hover {
     background-color: #95e1d3;
@@ -447,5 +463,11 @@ img {
 .footer_link {
     text-decoration: none;
     color: #f6a1a1;
+
+}
+
+.team_list:hover .mens {
+    transform: translate(-15px, -15px);
+    transition: all .200ms linear;
 
 }
