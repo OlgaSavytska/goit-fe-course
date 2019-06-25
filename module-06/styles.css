@@ -133,7 +133,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/1.png') no-repeat;
+    background: url('img/1.png') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -164,7 +164,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/2.png') no-repeat;
+    background: url('img/2.png') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -176,7 +176,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/3.png') no-repeat;
+    background: url('img/3.png') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -188,7 +188,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/4.png') no-repeat;
+    background: url('img/4.png') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -201,7 +201,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/5.png') no-repeat;
+    background: url('img/5.png') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -213,7 +213,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/6.png') no-repeat;
+    background: url('img/6.png') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
