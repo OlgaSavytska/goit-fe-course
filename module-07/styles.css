@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+        url('../fonts/montserrat-v13-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v13-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat-v13-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v13-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v13-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 120px;
+}
+
+.logo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lobster';
+    font-size: 24px;
+    color: #fed136;
+
+}
+
+.menu_items_title {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu_items_links {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 15px;
+    color: #222222;
+
+}
+
+.menu-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.menu_items_links:hover {
+    color: #fed136;
+}
+
+.services_title {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 17px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.services_text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 78px;
+    font-family: 'Lobster';
+    font-size: 16px;
+    color: #808080;
+}
+
+.points_items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.points_items_list {
+    margin: 0 30px 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.points_items_list_title {
+    margin: 21px 0 21px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+
+.points_items_list_text {
+    margin: 0 0 119px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #838383;
+}
+
+.points_items_list_e-commerce::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('img/1.png') no-repeat top;
+    background-position-y: center;
+    width: 40px;
+    height: 39px;
+    border: solid 5px #fed136;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.points_items_list_title_Web::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('img/2.png') no-repeat top;
+    background-position-y: center;
+    width: 40px;
+    height: 39px;
+    border: solid 5px #fed136;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.points_items_list_title_secure::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('img/3.png') no-repeat top;
+    background-position-y: center;
+    width: 40px;
+    height: 39px;
+    border: solid 5px #fed136;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.contact {
+    margin: 0 auto;
+    padding: 0;
+    background: url('img/4.png') no-repeat center;
+    width: 1400px;
+    height: 676px;
+
+}
+
+.contact_us {
+    margin: 0;
+    padding: 108px 0 14px 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contact_us_text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 78px;
+    font-family: 'Lobster';
+    font-size: 16px;
+    color: #808080;
+
+}
+
+.form {
+    display: block;
+    width: 950px;
+    
+    }
+
+.li_form {
+    margin: 7px 0 7px 0;
+    padding: 0;
+    /* display: flex; */
+    /* flex-flow: column; */
+    width: 455px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.textarea {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.action_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form_form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.inputs {
+    display: flex;
+    height: 212px;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+
+.li_form::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #808080;
+    padding: 17px 0 0 20px
+}
+
+.message {
+    display: block;
+    width: 455px;
+    height: 206px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #808080;
+    padding: 17px 0 0 20px;
+}
+
+.button {
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #fed136;
+    font-size: 18px;
+    padding: 20px 47px 20px 47px;
+}
+
+.li_form:valid;:not(.li_form_subject){
+    outline: solid 3px green;
+}
+.li_form:invalid {
+    outline: solid 3px red;
+}
