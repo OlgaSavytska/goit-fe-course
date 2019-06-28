@@ -134,7 +134,7 @@ html {
     display: block;
     margin: 0 auto;
     padding: 10px;
-    /* width: 320px; */
+    width: auto;
 }
 
 .navication {
@@ -159,12 +159,11 @@ html {
 
 .bck-img {
     width: auto;
-    height: 540px;
-    font-size: 0;
+    
     background: url('../img/5.png');
     background-size: cover;
     background-position: center;
-    margin-bottom: 70px;
+    
 }
 .navication_menu {
     /* display: flex;
@@ -291,8 +290,10 @@ html {
     margin: 0 0 20px 0;
     padding: 0;
     width: 250px;
+
    
 }
+
 
 .person_image {
     margin: 0 auto;
