@@ -117,6 +117,13 @@
          url('../fonts/roboto-v19-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/roboto-v19-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
   .bck-img {
     width: auto;
     height: 500px;
@@ -136,10 +143,16 @@
 .navication {
     margin: 0 auto;
     padding: 20px;
-    height: 220px;
+    height: 200px;
     width: auto;
     
    
+}
+
+.navication_menu {
+    display: flex;
+    justify-content: center;
+    height: 150px;
 }
 
 .navication_buttons {
@@ -156,7 +169,7 @@
 
 .navication_items {
     margin: 0 auto;
-    padding: 8px 14px 8px 14px;
+    padding: 2px 14px 2px 14px;
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -184,7 +197,7 @@
 .logo {
     display: block;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     text-decoration: none;
     font-family: 'Montserrat';
     font-weight: 700;
@@ -218,7 +231,7 @@
     margin: 0 auto;
     padding: 10px 10px 10px 10px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Montserrat';
     font-weight: 700;
     background-color: #ff4e50;
@@ -233,7 +246,7 @@
         font-family: 'Montserrat';
         font-weight: 400;
         font-size: 21px;
-        color: #333333;
+        color: #ffffff;
         text-align: center;
     }
 
@@ -254,20 +267,7 @@
     }
 
 
-    .image_icons:after{
-        display: block;
-        content: url('../img/6.1.png');
-        margin: 0;
-        padding: 2px;
-        width: 30px;
-        height: 30px;
-        background-color: #ff4e50;
-        position: absolute;
-        bottom: 0;
-        right: 130px;
-        border-radius: 30px 30px;
-        border: 3px solid #ffffff;
-    }
+    
 
     .see {
         display: block;
@@ -287,7 +287,10 @@
     .person_image {
         margin: 0 auto;
         padding: 0;
+    
     }
+
+    
     
     .hoomans1 {
         margin: 0 auto 20px;
@@ -306,15 +309,18 @@
             background-color: #ff4e50;
             position: absolute;
             bottom: 0;
-            right: 40px;
+            right: 0px;
             border-radius: 30px 30px;
             border: 3px solid #ffffff;
         }
     
         .image_icons {
-            margin: 0;
+            margin: 0 auto;
             padding: 0;
             position: relative;
+            width: 121px;
+            
+            
         }
     
     
@@ -339,12 +345,14 @@
         
     }
     .image_icons2 {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         position: relative;
+        width: 121px;
     }
     
     .image_icons2:after{
+        position: absolute;
         display: block;
         content: url('../img/7.1.1_.png');
         margin: 0;
@@ -352,9 +360,9 @@
         width: 40px;
         height: 40px;
         background-color: #ffa507;
-        position: absolute;
+        
         bottom: 0;
-        right: 40px;
+        right: 0;
         border-radius: 30px 30px;
         border: 3px solid #ffffff;
     }
@@ -366,9 +374,10 @@
     }
     
     .image_icons3 {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         position: relative;
+        width: 121px;
     }
     
     .image_icons3:after{
@@ -381,7 +390,7 @@
         background-color: #1cd7ad;
         position: absolute;
         bottom: 0;
-        right: 40px;
+        right: 0;
         border-radius: 30px 30px;
         border: 3px solid #ffffff;
     }
@@ -393,9 +402,10 @@
     }
     
     .image_icons4 {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         position: relative;
+        width: 121px;
     }
     
     .image_icons4:after{
@@ -408,7 +418,7 @@
         background-color: #4e73db;
         position: absolute;
         bottom: 0;
-        right: 40px;
+        right: 0;
         border-radius: 30px 30px;
         border: 3px solid #ffffff;
     }
