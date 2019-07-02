@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bkr-img {
+    margin: 0;
+    padding:0;
+    background: url('/img/1.png') center;
+    width: 1900px;
+    height: 1000px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav_items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.nav_items_link {
+    display: block;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav_items_link::after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 44px;
+    height: 5px;
+    background-color:#fce38a;
+}
+.nav_items_icons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    list-style: none;
+}
+
+
+.nav2 {
+    display: flex;
+    flex-flow: row;
+    justify-items: space-between;
+}
+
+
+
