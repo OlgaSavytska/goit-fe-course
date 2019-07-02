@@ -13,7 +13,7 @@ img {
 .bkr-img {
     margin: 0;
     padding: 0;
-    background: url('/img/1.png') center;
+    background: url('../img/1.png') center;
     width: 1900px;
     height: 1000px;
 }
@@ -185,7 +185,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/svg/3.svg') no-repeat;
+    background: url('../img/svg/3.svg') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -216,7 +216,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/svg/4.svg') no-repeat;
+    background: url('../img/svg/4.svg') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -228,7 +228,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/svg/5.svg') no-repeat;
+    background: url('../img/svg/5.svg') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -240,7 +240,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/svg/6.svg') no-repeat;
+    background: url('../img/svg/6.svg') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -253,7 +253,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/svg/7.svg') no-repeat;
+    background: url('../img/svg/7.svg') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
@@ -265,7 +265,7 @@ img {
     display: block;
     content: '';
     margin: 0 auto;
-    background: url('/img/svg/8.svg') no-repeat;
+    background: url('../img/svg/8.svg') no-repeat;
     width: 32px;
     height: 33px;
     position: absolute;
