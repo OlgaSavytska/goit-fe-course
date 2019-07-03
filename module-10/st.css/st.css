@@ -1,10 +1,8 @@
-html {
-    display: flex;
-    justify-items: center;
+* {
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
 }
+
 
 img {
     display: block;
@@ -13,11 +11,16 @@ img {
 }
 
 .bkr-img {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background: url('../img/1.png') center;
-    width: 1900px;
-    height: 1000px;
+    background: url('../img/1.png') center no-repeat;
+    padding-top: 2px;
+    padding-bottom: 100px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .bkr-img {
+        background: url('../img/Layer 15@2x.png') center no-repeat;
+    }
 }
 
 .container {
@@ -27,11 +30,14 @@ img {
 }
 
 .nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;
-    height: 220px;
+    margin-bottom: 160px;
+   
 }
 
 .logo {
@@ -47,6 +53,7 @@ img {
     flex-flow: row wrap;
     justify-content: space-between;
     list-style: none;
+    align-content: center;
 
 }
 
@@ -98,14 +105,16 @@ img {
 }
 
 
-.nav2 {
+.nav_links {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
 }
 
 
-.title_text {
+.welcome_text {
     margin: 0 0 20px 0;
     text-align: center;
     font-family: 'Kaushan Script';
@@ -115,7 +124,7 @@ img {
 
 }
 
-.title_welcome {
+.welcome_title {
     text-align: center;
     margin: 0 0 125px 0;
     font-family: 'Montserrat';
@@ -138,7 +147,12 @@ img {
     border: 3px solid #ffffff;
 }
 
-.work {
+.services_option {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services_option--p1 {
     margin: 0 0 19px 0;
     padding: 0;
     font-family: 'Kaushan Script';
@@ -148,7 +162,7 @@ img {
     text-align: center;
 }
 
-.amazing {
+.services_option--h2 {
     margin: 0 0 105px 0;
     padding: 0;
     font-family: 'Montserrat';
@@ -158,7 +172,7 @@ img {
     text-align: center;
 }
 
-.amazing::after {
+.services_option--h2::after {
     display: block;
     content: '';
     margin: 0 auto;
@@ -169,7 +183,7 @@ img {
     margin-top: 39px;
 }
 
-.services {
+.services_option--ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -182,6 +196,10 @@ img {
     width: 340px;
     position: relative;
     padding-left: 47px;
+}
+
+.services_item:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
 
 .photo_title::before {
@@ -275,8 +293,11 @@ img {
     left: 0;
     top: 0;
 }
-
-.Who {
+.team {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.team--p1 {
     margin: 0 0 19px 0;
     padding: 0;
     font-family: 'Kaushan Script';
@@ -286,7 +307,7 @@ img {
     text-align: center;
 }
 
-.meet_team {
+.team--h2 {
     margin: 0 0 105px 0;
     padding: 0;
     font-family: 'Montserrat';
@@ -296,7 +317,7 @@ img {
     text-align: center;
 }
 
-.meet_team::after {
+.team--h2::after {
     display: block;
     content: '';
     margin: 0 auto;
@@ -483,3 +504,4 @@ img {
     display: flex;
     align-content: center;
 }
+
