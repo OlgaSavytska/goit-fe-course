@@ -1,0 +1,20 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+
+@import './helpers/constants.scss';
+
+@import './components/base.scss';
+
+@import './helpers/variables.scss';
+
+// HEADER
+@import './components/header.scss';
+
+
+@import './components/bkr-img.scss';
+
+@import './components/navigation.scss';
+
+@import './components/section_welcome.scss';
