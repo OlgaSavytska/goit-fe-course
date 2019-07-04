@@ -1,0 +1,84 @@
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-bottom: 160px;
+   
+}
+
+.logo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: $main-color-white;
+    text-decoration: none;
+}
+
+.nav_items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+
+}
+
+.button {
+    border: none;
+    background: none;
+    fill: #ffffff;
+}
+.button:hover {
+    fill: #fce38a;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.icon {
+    height: 14px;
+    width: 18px;
+}
+
+.nav_items_link {
+    display: block;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: $main-color-white;
+    text-decoration: none;
+}
+
+.nav_items_link::after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 44px;
+    height: 5px;
+    background: none;
+}
+
+.nav_items_link:hover::after {
+    background-color: #fce38a;
+}
+
+
+
+
+.nav_links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}

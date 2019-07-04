@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 63px;
+    box-shadow: 0 -1px $main-color-very-grey;
+}
+
+.footer_text {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+
+.footer_link {
+    text-decoration: none;
+    color:  #f38181;
+}
+
+.mail {
+    margin: 0;
+    padding: 0;
+    width: 218px;
+    height: 30px;
+}
+.mail::placeholder {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.subscribe {
+    margin: 0;
+    padding: 7px 30px 7px 30px;
+    border: none;
+    background-color: #95e1d3;
+    color: #def6f1;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    
+}
+
+.input {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: center;
+}
+

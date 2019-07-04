@@ -1,0 +1,146 @@
+.services_option {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services_option--p1 {
+    margin: 0 0 19px 0;
+    padding: 0;
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 24px;
+    color: $main-color-very-grey;
+    text-align: center;
+}
+
+.services_option--h2 {
+    margin: 0 0 105px 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: $main-color-very-grey;
+    text-align: center;
+
+
+&::after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 61px;
+    height: 4px;
+    background-color: #f38181;
+    text-align: center;
+    margin-top: 39px;
+}
+}
+.services_option--ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.services_item {
+    margin: 0 0 95px 0;
+    padding: 0;
+    list-style: none;
+    width: 340px;
+    position: relative;
+    padding-left: 47px;
+}
+
+.services_item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.photo_title::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('../images/3.svg') no-repeat;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.services_item_title {
+    margin: 0 0 19px 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: $main-color-very-grey;
+}
+
+.services_item_text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+.design_title::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('../images/4.svg') no-repeat;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.creativity_title::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('../images/5.svg') no-repeat;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.seo_title::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('../images/6.svg') no-repeat;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.css_title::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('../images/7.svg') no-repeat;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.digital_title::before {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    background: url('../images/8.svg') no-repeat;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
