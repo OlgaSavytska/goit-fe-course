@@ -1,0 +1,27 @@
+/*
+   Import partials below
+*/
+@import 'normalize';
+
+@import 'helpers/constants';
+
+@import 'components/base';
+
+@import 'helpers/variables';
+
+@import 'helpers/typography';
+
+// HEADER
+@import 'components/header';
+
+@import 'components/bkr-img';
+
+@import 'components/navigation';
+
+@import 'components/section_welcome';
+// MAIN
+@import 'components/section1';
+
+@import 'components/section2';
+// FOOTER
+@import 'components/footer';
