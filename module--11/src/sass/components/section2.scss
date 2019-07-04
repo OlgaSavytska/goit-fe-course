@@ -130,10 +130,10 @@
 
 .team_list {
     &:hover {
-    &.team_list_hover{
-    display: block;
-    transition: all .200ms linear;
-}
+        &.team_list_hover {
+            display: block;
+            transition: all .200ms linear;
+        }
     }
 }
 
@@ -150,10 +150,10 @@
 
 .team_list_hover_link {
     &:hover {
-    background-color: #f38181;
-    fill: #ffffff;
-    transition: all .200ms linear;
-}
+        background-color: #f38181;
+        fill: #ffffff;
+        transition: all .200ms linear;
+    }
 }
 
 .test {

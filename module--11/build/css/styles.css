@@ -724,7 +724,7 @@ img {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 30px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -1090,7 +1090,7 @@ img {
   display: block;
 }
 
-.team_list:hover .team_list_hover {
+.team_list:hover.team_list_hover {
   display: block;
   transition: all .200ms linear;
 }
@@ -1122,7 +1122,7 @@ img {
   justify-content: space-between;
   align-items: center;
   min-height: 63px;
-  box-shadow: 0 -1px #3333332a;
+  box-shadow: 0 -1px #333333;
 }
 
 .footer_text {
