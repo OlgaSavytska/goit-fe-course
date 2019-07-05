@@ -128,14 +128,6 @@
 
 }
 
-.team_list {
-    &:hover {
-        &.team_list_hover {
-            display: block;
-            transition: all .200ms linear;
-        }
-    }
-}
 
 .team_list_hover_link {
     display: block;
@@ -148,16 +140,17 @@
     background-color: #fce38a;
 }
 
-.team_list_hover_link {
-    &:hover {
-        background-color: #f38181;
-        fill: #ffffff;
-        transition: all .200ms linear;
-    }
+.team_list:hover .team_list_hover {
+    display: block;
+    transition: all .200ms linear;
+}
+.team_list_hover_link:hover {
+    background-color: #f38181;
+    fill: #ffffff;
+    transition: all .200ms linear;
 }
 
 .test {
-
-    width: 28px;
+     width: 28px;
     height: 30px;
 }
